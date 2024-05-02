@@ -11,7 +11,7 @@ header {
 }
 
 main > header {
-    height: 100vh;
+    height: calc(100vh - 90px);
     width: 50px;
 
     /*Da Togliere*/
@@ -40,4 +40,13 @@ main {
     right: 0px;
     left: auto;
     text-decoration: none;
+}
+
+
+
+@media screen and (min-width:992px) {
+    main > header {
+        width: 125px;
+    
+    }
 }
