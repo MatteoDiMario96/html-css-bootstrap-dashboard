@@ -10,7 +10,7 @@ header {
     background-color: #f8f9fa;
 }
 
-main > header {
+aside {
     height: calc(100vh - 90px);
     width: 50px;
 
@@ -23,6 +23,15 @@ main > header {
 main {
     height: calc(100vh - 90px);
     width: calc(100vw - 50px);
+
+        /*Da Togliere*/
+        background-color: #7c8288;
+}
+
+
+
+main  header {
+    background-color: #1b72e8;
 }
 
 
@@ -47,8 +56,14 @@ main {
 
 
 @media screen and (min-width:992px) {
-    main > header {
+    aside {
         width: 125px;
+    }
+
+    main {
+        height: calc(100vh - 90px);
+        width: calc(100vw - 125px);
     
     }
+
 }
