@@ -35,3 +35,9 @@ main {
 #mobile_img_logo {
     max-width: 40px;
 }
+
+.dropdown-menu[data-bs-popper] {
+    right: 0px;
+    left: auto;
+    text-decoration: none;
+}
