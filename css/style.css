@@ -7,7 +7,7 @@ header {
     height: 90px;
 
     /*Da Togliere*/
-    background-color: aquamarine;
+    background-color: #f8f9fa;
 }
 
 main > header {
@@ -15,7 +15,9 @@ main > header {
     width: 50px;
 
     /*Da Togliere*/
-    background-color: rgb(147, 114, 179);
+    background-image: url("../img/sidebar-bg.png");
+    background-color: #051e34;
+    color: white;
 }
 
 main {
