@@ -195,17 +195,17 @@
             </div>
         </header>
         
-        <div class="container_article m-3">
+        <div class="container_article my-3 mx-2">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-8 order-1 p-0">
-                        <section class="table">
+                        <section id="table" class="table">
                             <div class="my_container_table bg-body border rounded-2 me-4">
                                 <h2 class="border-bottom px-3 py-2">
                                     Prossime Classi
                                 </h2>
 
-                                <div class="table-responsive">
+                                <div class="table-responsive p-3">
                                     <table class="table bg-body">
                                         <thead>
                                             <tr class="">
@@ -318,63 +318,10 @@
                                 </div>
                             </div>
                         </section>
-                    </div>
 
-                    <div class="col-12 col-lg-4 order-3 order-lg-2 p-0">
-                        <section id="to_do">
-                            <div class="my_container_todo bg-body border rounded-2  me-4">
-                                <h2 class="border-bottom text-uppercase px-3 py-2">
-                                    to-do
-                                </h2>
-
-                                <ul class="list-group m-3">
-                                    <li class="list-group-item">
-                                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                                        <label class="form-check-label" for="firstCheckbox">Kick off nuove classi</label>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                                        <label class="form-check-label" for="secondCheckbox">Lezioni su Bootstrap 5 in classe #127</label>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                                        <label class="form-check-label" for="thirdCheckbox">Controllare username GitHub studenti </label>
-                                    </li>
-                                </ul>
-                            </div>
-                        </section>
-                    </div>
-
-                    <div class="col-12 col-lg-4 order-4 p-0">
-                        <section id="card_utenti">   
-                            <div class="my_container_card_utenti border p-3 rounded-2  me-4">
-                                <div class="card" style="">
-                                    <img src="..." class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
-
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                    </ul>
-
-                                    <div class="card-body">
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-
-                    <div class="col-12 col-lg-8 order-2 p-0">
-                        <section class="faq">
-                            <div class="my_container_table border p-3 rounded-2  me-4">
-                                <h2 class="border-bottom text-uppercase">
+                        <section id="faq" class="faq">
+                            <div class="my_container_table border rounded-2  me-4">
+                                <h2 class="border-bottom text-uppercase px-3 py-2 m-0">
                                     f. a. q.
                                 </h2>
 
@@ -429,6 +376,58 @@
                                 </div>
                             </div>
                         </section>
+                    </div>
+
+                    <div class="col-12 col-lg-4 order-3 order-lg-2 p-0">
+                        <section id="to_do" class="mb-4">
+                            <div class="my_container_todo bg-body border rounded-2">
+                                <h2 class="border-bottom px-3 py-2">
+                                    To-do
+                                </h2>
+
+                                <ul class="list-group m-3">
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                        <label class="form-check-label" for="firstCheckbox">Kick off nuove classi</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                        <label class="form-check-label" for="secondCheckbox">Lezioni su Bootstrap 5 in classe #127</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                        <label class="form-check-label" for="thirdCheckbox">Controllare username GitHub studenti </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section id="card_utenti">   
+                            <div class="my_container_card_utenti border p-3 rounded-2">
+                                <div class="card" style="">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">An item</li>
+                                        <li class="list-group-item">A second item</li>
+                                        <li class="list-group-item">A third item</li>
+                                    </ul>
+
+                                    <div class="card-body">
+                                        <a href="#" class="card-link">Card link</a>
+                                        <a href="#" class="card-link">Another link</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-12 col-lg-4 order-4 p-0">
                     </div>
                 </div>
             </div>
