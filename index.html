@@ -93,7 +93,7 @@
                         <li class="d-flex me-lg-1">                           
                             <i class="fa-solid fa-house align-self-center my-2 me-2"></i>
                             
-                            <h2 class="d-none d-lg-inline-block fs-5 mt-2">
+                            <h2 class="d-none d-lg-inline-block fs-6 mt-2">
                                 Home
                             </h2>  
                         </li>
@@ -102,7 +102,7 @@
                             
                                 <i class="fa-solid fa-chart-simple align-self-center my-2 me-2"></i>
                                 
-                                <h2 class="d-none d-lg-inline-block fs-5 mt-2">
+                                <h2 class="d-none d-lg-inline-block fs-6 mt-2">
                                     Stats
                                 </h2>
                             
@@ -112,7 +112,7 @@
                             
                                 <i class="fa-solid fa-signal align-self-center my-2 me-2"></i>
                                 
-                                <h2 class="d-none d-lg-inline-block fs-5 mt-2">
+                                <h2 class="d-none d-lg-inline-block fs-6 mt-2">
                                     Signals
                                 </h2>
                             
@@ -124,7 +124,7 @@
                     <div class="setting_profile py-3 pe-2">
                         <i class="fa-solid fa-gear align-items-center"></i>
 
-                        <h2 class="d-none d-lg-inline-block m-0">
+                        <h2 class="d-none d-lg-inline-block fs-6 m-0">
                             Admin
                         </h2>
                     </div>
@@ -141,7 +141,7 @@
                             Nuovo Studente
                         </h2>
 
-                        <a href="#" class="text-white">
+                        <a href="#" class="text-white me-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                             <i class="fa-regular fa-square-plus fa-3x fw-normal"></i>
                         </a>
                     </div>
@@ -200,16 +200,16 @@
                 <div class="row">
                     <div class="col-12 col-lg-8 order-1 p-0">
                         <section id="table" class="table">
-                            <div class="my_container_table bg-body border rounded-2 me-4">
-                                <h2 class="border-bottom px-3 py-2">
+                            <div class="my_container_table bg-body border rounded-3 me-4">
+                                <h2 class="border-bottom fs-3 fw-normal px-3 py-2">
                                     Prossime Classi
                                 </h2>
 
                                 <div class="table-responsive p-3">
-                                    <table class="table bg-body">
+                                    <table class="table bg-body ">
                                         <thead>
                                             <tr class="">
-                                                <th scope="col">Nome</th>
+                                                <th scope="col" class="w-75">Nome</th>
                                                 <th scope="col" class="d-none d-md-table-cell">Data Inizio</th>
                                                 <th scope="col" class="d-none d-md-table-cell">ROI</th>
                                                 <th scope="col">Stato</th>
@@ -218,97 +218,99 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row">
+                                                <th scope="row" class="w-75">
                                                     <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 75</th>
-                                                <td class="d-none d-md-table-cell">15 Febbraio 2024</td>
+                                                <td class="d-none d-md-table-cell">04 Mar 2023</td>
                                                 <td class="d-none d-md-table-cell">20%</td>
                                                 <td>Done</td>
                                                 <td>
-                                                    <i class="fa-solid fa-pencil"></i>
+                                                    <div class="ceck_table">
+                                                        <i class="fa-solid fa-pencil fa-xs p-1 border"></i>
+
+                                                        <i class="fa-solid fa-trash p-1 fa-xs border"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row" class="w-75">
+                                                    <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 78</th>
+                                                <td class="d-none d-md-table-cell">08 Giu 2023</td>
+                                                <td class="d-none d-md-table-cell">20%</td>
+                                                <td>Done</td>
+                                                <td>
+                                                    <i class="fa-solid fa-pencil me-2 border"></i>
 
                                                     <i class="fa-solid fa-trash"></i>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">
-                                                    <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 75</th>
-                                                <td class="d-none d-md-table-cell">15 Febbraio 2024</td>
+                                                <th scope="row" class="w-75">
+                                                    <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 82</th>
+                                                <td class="d-none d-md-table-cell">12 Lug 2023</td>
                                                 <td class="d-none d-md-table-cell">20%</td>
                                                 <td>Done</td>
                                                 <td>
-                                                    <i class="fa-solid fa-pencil"></i>
+                                                    <i class="fa-solid fa-pencil me-2 border"></i>
 
                                                     <i class="fa-solid fa-trash"></i>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">
-                                                    <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 75</th>
-                                                <td class="d-none d-md-table-cell">15 Febbraio 2024</td>
+                                                <th scope="row" class="w-75">
+                                                    <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 88</th>
+                                                <td class="d-none d-md-table-cell">10 Set 2023</td>
                                                 <td class="d-none d-md-table-cell">20%</td>
                                                 <td>Done</td>
                                                 <td>
-                                                    <i class="fa-solid fa-pencil"></i>
+                                                    <i class="fa-solid fa-pencil me-2 border"></i>
 
                                                     <i class="fa-solid fa-trash"></i>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">
-                                                    <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 75</th>
-                                                <td class="d-none d-md-table-cell">15 Febbraio 2024</td>
+                                                <th scope="row" class="w-75">
+                                                    <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 92</th>
+                                                <td class="d-none d-md-table-cell">12 Ott 2023</td>
                                                 <td class="d-none d-md-table-cell">20%</td>
                                                 <td>Done</td>
                                                 <td>
-                                                    <i class="fa-solid fa-pencil"></i>
+                                                    <i class="fa-solid fa-pencil me-2 border"></i>
 
                                                     <i class="fa-solid fa-trash"></i>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">
-                                                    <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 75</th>
-                                                <td class="d-none d-md-table-cell">15 Febbraio 2024</td>
+                                                <th scope="row" class="w-75">
+                                                    <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 95</th>
+                                                <td class="d-none d-md-table-cell">16 Dic 2023</td>
                                                 <td class="d-none d-md-table-cell">20%</td>
                                                 <td>Done</td>
                                                 <td>
-                                                    <i class="fa-solid fa-pencil"></i>
+                                                    <i class="fa-solid fa-pencil me-2 border"></i>
 
                                                     <i class="fa-solid fa-trash"></i>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">
-                                                    <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 75</th>
-                                                <td class="d-none d-md-table-cell">15 Febbraio 2024</td>
+                                                <th scope="row" class="w-75">
+                                                    <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 103</th>
+                                                <td class="d-none d-md-table-cell">09 Gen 2024</td>
                                                 <td class="d-none d-md-table-cell">20%</td>
                                                 <td>Done</td>
                                                 <td>
-                                                    <i class="fa-solid fa-pencil"></i>
+                                                    <i class="fa-solid fa-pencil me-2 border"></i>
 
                                                     <i class="fa-solid fa-trash"></i>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">
-                                                    <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 75</th>
-                                                <td class="d-none d-md-table-cell">15 Febbraio 2024</td>
+                                                <th scope="row" class="w-75">
+                                                    <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 127</th>
+                                                <td class="d-none d-md-table-cell">15 Feb 2024</td>
                                                 <td class="d-none d-md-table-cell">20%</td>
                                                 <td>Done</td>
                                                 <td>
-                                                    <i class="fa-solid fa-pencil"></i>
-
-                                                    <i class="fa-solid fa-trash"></i>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">
-                                                    <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 75</th>
-                                                <td class="d-none d-md-table-cell">15 Febbraio 2024</td>
-                                                <td class="d-none d-md-table-cell">20%</td>
-                                                <td>Done</td>
-                                                <td>
-                                                    <i class="fa-solid fa-pencil"></i>
+                                                    <i class="fa-solid fa-pencil me-2 border"></i>
 
                                                     <i class="fa-solid fa-trash"></i>
                                                 </td>
@@ -320,8 +322,8 @@
                         </section>
 
                         <section id="faq" class="faq">
-                            <div class="my_container_table border rounded-2  me-4">
-                                <h2 class="border-bottom text-uppercase px-3 py-2 m-0">
+                            <div class="my_container_table border rounded-3  me-4">
+                                <h2 class="border-bottom fs-3 fw-normal text-uppercase px-3 py-2 m-0">
                                     f. a. q.
                                 </h2>
 
@@ -380,8 +382,8 @@
 
                     <div class="col-12 col-lg-4 order-3 order-lg-2 p-0">
                         <section id="to_do" class="mb-4">
-                            <div class="my_container_todo bg-body border rounded-2">
-                                <h2 class="border-bottom px-3 py-2">
+                            <div class="my_container_todo bg-body border rounded-3">
+                                <h2 class="border-bottom fs-3 fw-normal px-3 py-2">
                                     To-do
                                 </h2>
 
@@ -403,23 +405,30 @@
                         </section>
 
                         <section id="card_utenti">   
-                            <div class="my_container_card_utenti border p-3 rounded-2">
+                            <div class="my_container_card_utenti border p-3 rounded-3 bg-body">
                                 <div class="card" style="">
-                                    <img src="..." class="card-img-top" alt="...">
+                                    <img src="./img/stats.jpeg" class="img-fluid" alt="graphics of students">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h3 class="card-title fs-5">
+                                            Utenti Attivi
+                                        </h3>
+
+                                        <p class="card-text">
+                                            Lista degli utenti attivi in piattaforma nell'ultimo mese.
+                                        </p>
                                     </div>
 
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
+                                        <li class="list-group-item">Gennaio: 1200</li>
+                                        <li class="list-group-item">Febbraio: 800</li>
+                                        <li class="list-group-item">Marzo: 1500</li>
                                     </ul>
 
                                     <div class="card-body">
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
+                                        <a href="#" class="card-link">
+                                            Visualizza report approfondito
+                                        </a>
+                                        
                                     </div>
 
                                 </div>

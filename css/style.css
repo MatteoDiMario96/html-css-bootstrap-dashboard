@@ -43,6 +43,10 @@ section.table h2 {
     background-color: #f7f7f7;
 }
 
+th {
+    width: 48%;
+}
+
 
 .form_dark_grey {
     background-color: #e5e5e5;
