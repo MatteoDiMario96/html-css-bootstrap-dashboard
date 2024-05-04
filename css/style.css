@@ -30,7 +30,7 @@ main {
 }
 
 main header {
-    width: calc(100vw -  50px);
+    width: calc(100vw -  55px);
     
 }
 
@@ -41,6 +41,10 @@ main header h3 {
 section#to_do h2,
 section.table h2 {
     background-color: #f7f7f7;
+}
+
+.width_10 {
+    width: 10%;
 }
 
 .form_dark_grey {
@@ -60,7 +64,8 @@ section.table h2 {
 }
 
 .dropdown-menu[data-bs-popper] {
-    right: 0px;
+    right: 10px;
+    top: 27px;
     left: auto;
     text-decoration: none;
 }
@@ -71,6 +76,10 @@ section.table h2 {
 
 #img_avatar {
     max-width: 25px;
+}
+
+aside ul li:hover {
+    background-color: #fffdfd79;
 }
 
 
@@ -89,6 +98,12 @@ section.table h2 {
     main header {
         width: calc(100vw - 125px);
     }
+
+    th.width {
+        width: 50%;
+    }
+
+    
 
     #offcanvasRight {
         width: 40%;

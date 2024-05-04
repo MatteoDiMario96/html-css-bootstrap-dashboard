@@ -58,13 +58,13 @@
                             <ul class="dropdown-menu position-absolute">
                                 <li>
                                     <a class="dropdown-item" href="#">
-                                    Action
+                                    Profilo
                                     </a>
                                 </li>
 
                                 <li>
                                     <a class="dropdown-item" href="#">
-                                        Another action
+                                        Fatturazione
                                     </a>
                                 </li>
 
@@ -73,7 +73,7 @@
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="#">
-                                        Something else here
+                                        Logout
                                     </a>
                                 </li>
                             </ul>
@@ -89,7 +89,7 @@
             <nav class="side d-flex flex-column justify-content-between w-100">
                 <div class="nav_side_top pt-4">
                     <ul class="d-flex flex-column align-items-center list-unstyled">
-                        <li class="d-flex me-lg-1">                           
+                        <li class="d-flex me-lg-1 px-3">                           
                             <i class="fa-solid fa-house align-self-center my-2 me-2"></i>
                             
                             <h2 class="d-none d-lg-inline-block fs-6 mt-2">
@@ -97,7 +97,7 @@
                             </h2>  
                         </li>
 
-                        <li class="d-flex me-lg-2">
+                        <li class="d-flex me-lg-2 px-3">
                             
                                 <i class="fa-solid fa-chart-simple align-self-center my-2 me-2"></i>
                                 
@@ -107,7 +107,7 @@
                             
                         </li>
                         
-                        <li class="d-flex">
+                        <li class="d-flex px-3">
                             
                                 <i class="fa-solid fa-signal align-self-center my-2 me-2"></i>
                                 
@@ -120,7 +120,7 @@
                 </div>
 
                 <div class="nav_side_bot d-flex justify-content-center">
-                    <div class="setting_profile py-3 pe-2">
+                    <div class="setting_profile py-3 px-3">
                         <i class="fa-solid fa-gear align-items-center"></i>
 
                         <h2 class="d-none d-lg-inline-block fs-6 m-0">
@@ -153,7 +153,7 @@
                             
                                 <div class="offcanvas-body">
                                     <form class="row g-3">
-                                        <div class="col-6">
+                                        <div class="col-12 col-md-6">
                                             <label for="inputNome" class="form-label">
                                                 Nome
                                             </label>
@@ -161,7 +161,7 @@
                                             <input type="text" class="form-control" id="inputAddress" placeholder="">
                                         </div>
                             
-                                        <div class="col-6">
+                                        <div class="col-12 col-md-6">
                                             <label for="inputCognome" class="form-label">
                                                 Cognome 
                                             </label>
@@ -169,7 +169,7 @@
                                             <input type="text" class="form-control" id="cognome" placeholder="">
                                         </div>
                             
-                                        <div class="col-6">
+                                        <div class="col-12 col-md-6">
                                             <label for="inputEmail4" class="form-label">
                                                 Email
                                             </label>
@@ -181,7 +181,7 @@
                                             </div>
                                         </div>
                                         
-                                        <div class="col-6">
+                                        <div class="col-12 col-md-6">
                                             <label for="inputPassword4" class="form-label">
                                                 Password
                                             </label>
@@ -195,13 +195,13 @@
                             
                                             <input type="text" class="form-control" id="inputIndirizzo">
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-12 col-md-6">
                                             <label for="inputZip" class="form-label">
                                                 Città
                                             </label>
                                             <input type="text" class="form-control" id="inputZip">
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-12 col-md-4">
                                             <label for="inputState" class="form-label">
                                                 Stato
                                             </label>
@@ -219,7 +219,7 @@
                             
                                         
                             
-                                        <div class="col-2">
+                                        <div class="col-12 col-md-2">
                                             <label for="inputZip" class="form-label text-uppercase">
                                                 cap
                                             </label>
@@ -324,7 +324,7 @@
                                     <table class="table bg-body ">
                                         <thead>
                                             <tr class="">
-                                                <th scope="col" class="w-75">Nome</th>
+                                                <th scope="col" class="width">Nome</th>
                                                 <th scope="col" class="d-none d-md-table-cell">Data Inizio</th>
                                                 <th scope="col" class="d-none d-md-table-cell">ROI</th>
                                                 <th scope="col">Stato</th>
@@ -333,101 +333,133 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row" class="w-75">
+                                                <th scope="row" class="width">
                                                     <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 75</th>
                                                 <td class="d-none d-md-table-cell">04 Mar 2023</td>
-                                                <td class="d-none d-md-table-cell">20%</td>
-                                                <td>Done</td>
+                                                <td class="d-none d-md-table-cell width_10">20%</td>
+                                                <td class="text-center">
+                                                    <p class="bg-success rounded-3 text-white">Done</p>
+
+                                                </td>
                                                 <td>
                                                     <div class="ceck_table">
-                                                        <i class="fa-solid fa-pencil fa-xs p-1 border"></i>
+                                                        <i class="fa-solid fa-pencil text-body-tertiary p-1 border border-2 rounded-1 mb-1"></i>
 
-                                                        <i class="fa-solid fa-trash p-1 fa-xs border"></i>
+                                                        <i class="fa-solid fa-trash text-body-tertiary p-1 border border-2 rounded-1"></i>
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <th scope="row" class="w-75">
+                                                <th scope="row" class="width">
                                                     <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 78</th>
                                                 <td class="d-none d-md-table-cell">08 Giu 2023</td>
-                                                <td class="d-none d-md-table-cell">20%</td>
-                                                <td>Done</td>
-                                                <td>
-                                                    <i class="fa-solid fa-pencil me-2 border"></i>
+                                                <td class="d-none d-md-table-cell width_10">20%</td>
+                                                <td class="text-center">
+                                                    <p class="bg-success rounded-3 text-white">Done</p>
 
-                                                    <i class="fa-solid fa-trash"></i>
                                                 </td>
+                                                <td>
+                                                    <div class="ceck_table">
+                                                        <i class="fa-solid fa-pencil text-body-tertiary p-1 border border-2 rounded-1 mb-1"></i>
+
+                                                        <i class="fa-solid fa-trash text-body-tertiary p-1 border border-2 rounded-1"></i>
+                                                    </div>
                                             </tr>
                                             <tr>
-                                                <th scope="row" class="w-75">
+                                                <th scope="row" class="width">
                                                     <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 82</th>
                                                 <td class="d-none d-md-table-cell">12 Lug 2023</td>
-                                                <td class="d-none d-md-table-cell">20%</td>
-                                                <td>Done</td>
+                                                <td class="d-none d-md-table-cell width_10">20%</td>
+                                                <td class="text-center">
+                                                    <p class="bg-warning rounded-3 text-white">Process</p>
+                                                </td>
                                                 <td>
-                                                    <i class="fa-solid fa-pencil me-2 border"></i>
+                                                    <div class="ceck_table">
+                                                        <i class="fa-solid fa-pencil text-body-tertiary p-1 border border-2 rounded-1 mb-1"></i>
 
-                                                    <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-trash text-body-tertiary p-1 border border-2 rounded-1"></i>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <th scope="row" class="w-75">
+                                                <th scope="row" class="width">
                                                     <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 88</th>
                                                 <td class="d-none d-md-table-cell">10 Set 2023</td>
-                                                <td class="d-none d-md-table-cell">20%</td>
-                                                <td>Done</td>
-                                                <td>
-                                                    <i class="fa-solid fa-pencil me-2 border"></i>
+                                                <td class="d-none d-md-table-cell width_10">20%</td>
+                                                <td class="text-center">
+                                                    <p class="bg-success rounded-3 text-white">Done</p>
 
-                                                    <i class="fa-solid fa-trash"></i>
+                                                </td>
+                                                <td>
+                                                    <div class="ceck_table">
+                                                        <i class="fa-solid fa-pencil text-body-tertiary p-1 border border-2 rounded-1 mb-1"></i>
+
+                                                        <i class="fa-solid fa-trash text-body-tertiary p-1 border border-2 rounded-1"></i>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <th scope="row" class="w-75">
+                                                <th scope="row" class="width">
                                                     <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 92</th>
                                                 <td class="d-none d-md-table-cell">12 Ott 2023</td>
-                                                <td class="d-none d-md-table-cell">20%</td>
-                                                <td>Done</td>
+                                                <td class="d-none d-md-table-cell width_10">20%</td>
+                                                <td class="text-center">
+                                                    <p class="bg-danger rounded-3 text-white">Failed</p>
+                                                </td>
                                                 <td>
-                                                    <i class="fa-solid fa-pencil me-2 border"></i>
+                                                    <div class="ceck_table">
+                                                        <i class="fa-solid fa-pencil text-body-tertiary p-1 border border-2 rounded-1 mb-1"></i>
 
-                                                    <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-trash text-body-tertiary p-1 border border-2 rounded-1"></i>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <th scope="row" class="w-75">
+                                                <th scope="row" class="width">
                                                     <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 95</th>
                                                 <td class="d-none d-md-table-cell">16 Dic 2023</td>
-                                                <td class="d-none d-md-table-cell">20%</td>
-                                                <td>Done</td>
+                                                <td class="d-none d-md-table-cell width_10">20%</td>
+                                                <td class="text-center">
+                                                    <p class="bg-success rounded-3 text-white">Done</p>
+                                                </td>
                                                 <td>
-                                                    <i class="fa-solid fa-pencil me-2 border"></i>
+                                                    <div class="ceck_table">
+                                                        <i class="fa-solid fa-pencil text-body-tertiary p-1 border border-2 rounded-1 mb-1"></i>
 
-                                                    <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-trash text-body-tertiary p-1 border border-2 rounded-1"></i>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <th scope="row" class="w-75">
+                                                <th scope="row" class="width">
                                                     <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 103</th>
                                                 <td class="d-none d-md-table-cell">09 Gen 2024</td>
-                                                <td class="d-none d-md-table-cell">20%</td>
-                                                <td>Done</td>
+                                                <td class="d-none d-md-table-cell width_10">20%</td>
+                                                <td class="text-center">
+                                                    <p class="bg-danger rounded-3 text-white">Failed</p>
+                                                </td>
                                                 <td>
-                                                    <i class="fa-solid fa-pencil me-2 border"></i>
+                                                    <div class="ceck_table">
+                                                        <i class="fa-solid fa-pencil text-body-tertiary p-1 border border-2 rounded-1 mb-1"></i>
 
-                                                    <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-trash text-body-tertiary p-1 border border-2 rounded-1"></i>
+                                                    </div>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <th scope="row" class="w-75">
+                                                <th scope="row" class="width">
                                                     <img src="./img/class-avatar.jpg" alt="avatar" id="img_avatar" class="img-fluid"> Classe 127</th>
                                                 <td class="d-none d-md-table-cell">15 Feb 2024</td>
-                                                <td class="d-none d-md-table-cell">20%</td>
-                                                <td>Done</td>
+                                                <td class="d-none d-md-table-cell width_10">20%</td>
+                                                <td class="text-center">
+                                                    <p class="bg-success rounded-3 text-white">Done</p>
+                                                </td>
                                                 <td>
-                                                    <i class="fa-solid fa-pencil me-2 border"></i>
+                                                    <div class="ceck_table">
+                                                        <i class="fa-solid fa-pencil text-body-tertiary p-1 border border-2 rounded-1 mb-1"></i>
 
-                                                    <i class="fa-solid fa-trash"></i>
+                                                        <i class="fa-solid fa-trash text-body-tertiary p-1 border border-2 rounded-1"></i>
+                                                    </div>
                                                 </td>
                                             </tr>
                                         </tbody>
